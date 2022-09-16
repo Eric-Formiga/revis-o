@@ -28,7 +28,6 @@ class DiscoverySpaceship extends Spaceship {
     }
 }
 
-
 let Darwin = new DiscoverySpaceship("Darwin", 10, 300)
 let fenix = new BattleSpaceship("Fenix",20, 400)
 
@@ -37,7 +36,5 @@ fenix.speedUp(500)
 
 Darwin.stop()
 fenix.stop()
-
-
 
 
